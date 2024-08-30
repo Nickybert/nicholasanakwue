@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Digital Activism Research</title>
+    <title>Nicholas Anakwue - Digital Activism Research</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navbar">
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -20,43 +21,72 @@
     </header>
 
     <main>
-        <section id="home">
-            <h1>Your Name</h1>
-            <h2>PhD Researcher in Digital Activism and Social Movements</h2>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="animate-pop-in">Nicholas Anakwue</h1>
+                <h2 class="animate-pop-in">PhD Researcher in Digital Activism and Social Movements</h2>
+                <a href="#about" class="cta-button animate-pop-in">Learn More</a>
+            </div>
         </section>
 
-        <section id="about">
+        <section id="about" class="section-light">
             <h2>About Me</h2>
-            <p>Brief introduction about yourself and your research interests.</p>
+            <p>I am a passionate researcher exploring the intersection of digital technology and social movements. My work focuses on how digital tools are reshaping activism and collective action in the 21st century.</p>
+            <div class="skills">
+                <div class="skill">Digital Ethnography</div>
+                <div class="skill">Social Network Analysis</div>
+                <div class="skill">Data Visualization</div>
+            </div>
         </section>
 
-        <section id="research">
+        <section id="research" class="section-dark">
             <h2>Research</h2>
-            <p>Overview of your research on digital activism and social movements.</p>
-            <ul>
-                <li>Research Topic 1</li>
-                <li>Research Topic 2</li>
-                <li>Research Topic 3</li>
-            </ul>
+            <p>My research examines the impact of digital technologies on social movements and political participation.</p>
+            <div class="research-topics">
+                <div class="topic">
+                    <i class="fas fa-hashtag"></i>
+                    <h3>Hashtag Activism</h3>
+                    <p>Exploring the role of social media in modern protest movements.</p>
+                </div>
+                <div class="topic">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Digital Movements</h3>
+                    <p>Analyzing transnational activist networks and their use of digital tools.</p>
+                </div>
+                <div class="topic">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Digital Security for Activists</h3>
+                    <p>Investigating best practices for protecting online activist communities.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="publications">
+        <section id="publications" class="section-light">
             <h2>Publications</h2>
             <ul id="publication-list">
                 <!-- Publications will be dynamically added here -->
             </ul>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="section-dark">
             <h2>Contact</h2>
-            <p>Email: your.email@example.com</p>
-            <p>Twitter: @YourTwitterHandle</p>
-            <p>LinkedIn: Your LinkedIn Profile</p>
+            <p>Get in touch with me for research collaborations or speaking engagements.</p>
+            <div class="contact-info">
+                <div><i class="fas fa-envelope"></i> email@example.com</div>
+                <div><i class="fab fa-twitter"></i> @TwitterHandle</div>
+                <div><i class="fab fa-linkedin"></i> LinkedInProfile</div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Nicholas Anakwue. All rights reserved.</p>
+        <p>
+            This work is licensed under a 
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                Creative Commons Attribution 4.0 International License
+            </a>.
+        </p>
     </footer>
 
     <script src="script.js"></script>
